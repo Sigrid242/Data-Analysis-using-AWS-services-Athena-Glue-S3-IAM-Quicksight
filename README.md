@@ -14,4 +14,6 @@ Variables include work_year, experience_level, enployement_type, job_type, salar
 
 5- Data is extracted from S3 using Quicksight to build report
 
+![ds-analysis-diagram](https://user-images.githubusercontent.com/59377247/191590432-64c4bf73-2ce6-452b-8980-4587b459a5e0.PNG)
+
 
