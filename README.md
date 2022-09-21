@@ -1,4 +1,4 @@
-# Data-analysis-using-AWS-services-Athena-Glue-S3
+# Data-analysis-using-AWS-services-Athena-Glue-S3-Quicksight
 
 This is an end-to-end simple AWS data analytics solutions, from uploading dataset into S3 bucket to visualizing insights in Quicksight.The dataset used in this scenario is the data science job salaries from kaggle 'kaggle.com/datasets/ruchi798/data-science-job-salaries'. 
 
