@@ -58,7 +58,7 @@ Step 3- Moving on to Athena. Before we can create our table we need to choose th
 
 
 
-4- Data query is performed in Athena, then results are loaded to data-science-query-bucket-results 
+4- Data query is performed in Athena, then results are loaded to data-science-bucket-results 
 
 5- Data is extracted from S3 using Quicksight to build report
 
