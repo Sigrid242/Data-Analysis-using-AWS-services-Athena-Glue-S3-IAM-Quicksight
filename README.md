@@ -45,13 +45,20 @@ Step 2- S3 buckets are created. The data-science-salaries-bucket will hold the r
 
 
 
-Step 3- Moving to Athena. Before we can create our table we need to choose the bucket where the output query will be sent. In the Athena query editor we select          settings > manage > browse s3 to choose the appropriate bucket.
+Step 3- Moving on to Athena. Before we can create our table we need to choose the bucket where the output query will be sent. In the Athena query editor we select          settings > manage > browse s3 to choose the appropriate bucket.
 
-3a- In Athena query catalogue we select create a table, then select glue crawler is selected to retrieve data information schema automatically
+3a- In Athena data catalogue, we select >create table > AWS glue crawler > add crawler to retrieve data information schema automatically.
+![Capture12](https://user-images.githubusercontent.com/59377247/191648372-a1413357-4181-4210-9556-3c2d05275c4d.PNG)
 
 
 
-4- Data query is performed in Athena, then results are loaded to S3 query results bucket
+3b- Crawler succesfully created
+
+![Capture (crawler was created) 14](https://user-images.githubusercontent.com/59377247/191651624-264aceea-5315-4000-b3bc-1335498b16f3.PNG)
+
+
+
+4- Data query is performed in Athena, then results are loaded to data-science-query-bucket-results 
 
 5- Data is extracted from S3 using Quicksight to build report
 
