@@ -34,7 +34,7 @@ Step 1- First, we create an IAM user to grant access permission to s3 buckets. I
 
 
 
-Step 2- S3 buckets are created. The data-science-salaries-bucket will hold the raw file, while the data-science-salaries-bucket-results will hold the query results      from  Athena.
+Step 2- S3 buckets are created. The data-science-salaries-bucket will hold the raw file, while the data-science-salaries-bucket-result will hold the query results      from  Athena.
 ![Capture1](https://user-images.githubusercontent.com/59377247/191639429-78f18f97-a733-4b52-9647-9c29309e62f4.PNG)
 
 
@@ -59,6 +59,8 @@ Step 3- Moving on to Athena. Before we can create our table we need to choose th
 
 
 4- Data query is performed in Athena, then results are loaded to data-science-bucket-results 
+![athena_queries](https://user-images.githubusercontent.com/59377247/192395817-76e7502e-ee33-4697-be6c-0f3edc4e94ff.PNG)
+
 
 5- Data is extracted from S3 using Quicksight to build report
 
