@@ -18,7 +18,7 @@ Step 1- First, we create an IAM user to grant access permission to s3. In the se
 
 
 
-1b- We proceed by choosing attach existing policies directly to the user since we already have a policy set up.
+1b- We proceed by choosing attach existing policies directly since we already have a policy set up.
 
 ![Capture 2](https://user-images.githubusercontent.com/59377247/191635668-9a6117cd-49be-4e58-8ca4-39f370f66c35.jpg)
 
