@@ -68,7 +68,7 @@ We navigate the account section by clicking on top right > manage quicksight > s
 ![quicksight_bucket_permission](https://user-images.githubusercontent.com/59377247/192400172-bfcaaf7f-d45e-4fd5-a3ab-363f903a745f.PNG)
 
 
-5a- Setting up a new data source to access s3 from quicksight new analysis > new dataset > S3 > 
+5a- Setting up a new data source to access S3 from quicksight new analysis > new dataset > S3 > 
 
 
 
