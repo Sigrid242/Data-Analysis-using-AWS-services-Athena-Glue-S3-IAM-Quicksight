@@ -68,7 +68,11 @@ We navigate the account section by clicking on top right > manage quicksight > s
 ![quicksight_bucket_permission](https://user-images.githubusercontent.com/59377247/192400172-bfcaaf7f-d45e-4fd5-a3ab-363f903a745f.PNG)
 
 
-5a- Setting up a new data source to access S3 from quicksight new analysis > new dataset > S3 > 
+5a- Setting up a new data source to access S3 from quicksight new analysis > new dataset > S3 > upload Json manifest file > importe to spice
+
+5b- Quicksight Report
+
+![quicksight_dashboard](https://user-images.githubusercontent.com/59377247/192424686-7f6ff09c-274b-41cb-8888-514624db1916.PNG)
 
 
 
