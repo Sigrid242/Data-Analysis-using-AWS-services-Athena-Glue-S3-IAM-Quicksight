@@ -2,7 +2,7 @@
 
 This is an end-to-end simple data analytics solution using AWS services. From uploading dataset to S3 bucket to visualizing insights in Quicksight.The dataset used in this project is the data science job salaries from kaggle 'kaggle.com/datasets/ruchi798/data-science-job-salaries'. 
 
-Variables include work_year, experience_level, enployement_type, job_type, salary, salary_currency, salary_in_usd, employee_residence, remote_ratio, company_location, company_size. We are interested in identifying the agrregate top 5 salaries by jobtile. The data analytics process is done as follow:
+Variables include work_year, experience_level, enployement_type, job_type, salary, salary_currency, salary_in_usd, employee_residence, remote_ratio, company_location, company_size. We are interested in identifying the agrregate top 5 salaries by jobtile. The data analytics process is done as follows:
 
 Step 1- First, we create an IAM user to grant access permission to s3. In the search bar we type IAM > users > add users
 
