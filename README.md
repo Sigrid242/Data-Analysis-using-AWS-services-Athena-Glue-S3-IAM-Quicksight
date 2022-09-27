@@ -70,13 +70,13 @@ Step 3- Moving on to Athena. Before we can create our table we need to choose th
 
 
 
-4- Data query is performed in Athena, then results are loaded to data-science-bucket-result 
+Step 4- Data query is performed in Athena, then results are loaded to data-science-bucket-result 
 ![athena_queries](https://user-images.githubusercontent.com/59377247/192395817-76e7502e-ee33-4697-be6c-0f3edc4e94ff.PNG)
 
 
 
 
-5- Next is to extract data from S3 using Quicksight to built report. But before quicksight can read the s3 bucket, we have to make sure it has permission to do so.
+Step 5- Next is to extract data from S3 using Quicksight to built report. But before quicksight can read the s3 bucket, we have to make sure it has permission to do so.
 We navigate the account section by clicking on top right > manage quicksight > security & permissions > manage > select s3 bucket.
 
 ![quicksight_bucket_permission](https://user-images.githubusercontent.com/59377247/192400172-bfcaaf7f-d45e-4fd5-a3ab-363f903a745f.PNG)
