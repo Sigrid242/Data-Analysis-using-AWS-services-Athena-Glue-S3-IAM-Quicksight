@@ -1,10 +1,10 @@
-# Data-analysis-using-AWS-services-Athena-Glue-S3-Quicksight
+# Data-analysis-using-AWS-services-Athena-Glue-S3-IAM-Quicksight
 
 This is an end-to-end simple data analytics solution using AWS services. From uploading dataset to S3 bucket to visualizing insights in Quicksight.The dataset used in this project is the data science job salaries from kaggle 'kaggle.com/datasets/ruchi798/data-science-job-salaries'. 
 
-Variables include work_year, experience_level, enployement_type, job_type, salary, salary_currency, salary_in_usd, employee_residence, remote_ratio, company_location, company_size. We are interested in identifying the agrregate top 5 salaries by jobtile, sum of salaries in US dollar by experience, the remote work ratio, and the sum of salaries in US by employment type. The data analytics process is done as follow:
+Variables include work_year, experience_level, enployement_type, job_type, salary, salary_currency, salary_in_usd, employee_residence, remote_ratio, company_location, company_size. We are interested in identifying the agrregate top 5 salaries by jobtile. The data analytics process is done as follow:
 
-Step 1- First, we create an IAM user to grant access permission to s3 buckets. In the search bar we type IAM > users > add users
+Step 1- First, we create an IAM user to grant access permission to s3. In the search bar we type IAM > users > add users
 
 ![iam8](https://user-images.githubusercontent.com/59377247/191630320-238eed91-49d7-4cde-b0f5-ff2f5fd9091f.jpg)
 
@@ -18,13 +18,13 @@ Step 1- First, we create an IAM user to grant access permission to s3 buckets. I
 
 
 
-1b- We proceed by attaching policy to the user since we already have a policy set up.
+1b- We proceed by choosing attach existing policies directly to the user since we already have a policy set up.
 
 ![Capture 2](https://user-images.githubusercontent.com/59377247/191635668-9a6117cd-49be-4e58-8ca4-39f370f66c35.jpg)
 
 
 
-1c-Review all the details and then create user
+1c-Review all the details and create user
 ![iam13](https://user-images.githubusercontent.com/59377247/191636843-4e6acb89-6121-4456-81c8-ade5306d00d9.PNG)
 
 
@@ -71,25 +71,24 @@ Step 3- Moving on to Athena. Before we can create our table we need to choose th
 
 
 Step 4- Data query is performed in Athena, then results are loaded to data-science-bucket-result 
-![athena_queries](https://user-images.githubusercontent.com/59377247/192395817-76e7502e-ee33-4697-be6c-0f3edc4e94ff.PNG)
+![athena_queries 1PNG](https://user-images.githubusercontent.com/59377247/192561875-c7572441-b2ee-4344-a112-008b40792f24.PNG)
 
 
 
 
-Step 5- Next is to extract data from S3 using Quicksight to built report. But before quicksight can read the s3 bucket, we have to make sure it has permission to do so.
-We navigate the account section by clicking on top right > manage quicksight > security & permissions > manage > select s3 bucket.
+Step 5- Now we can extract data from S3 using Quicksight to built report. But before quicksight can read the s3 bucket, we have to make sure it has permission to do so. We navigate the account section by clicking on top right > manage quicksight > security & permissions > manage > select s3 bucket.
 
 ![quicksight_bucket_permission](https://user-images.githubusercontent.com/59377247/192400172-bfcaaf7f-d45e-4fd5-a3ab-363f903a745f.PNG)
 
 
 
 
-5a- Setting up a new data source to access S3 from quicksight new analysis > new dataset > S3 > upload Json manifest file > importe to spice
+5a- Next we set up a new data source to access S3 from quicksight new analysis > new dataset > S3 > upload Json manifest file > importe to spice
 
 
 
 
-5b- Quicksight Report is produced.
+5b- After he data is imported to spice, we create report in Quicksight. Our interest was to identify top 5 popular data science salary in US based on job titlte.
 
 ![quicksight_dashboard](https://user-images.githubusercontent.com/59377247/192424686-7f6ff09c-274b-41cb-8888-514624db1916.PNG)
 
