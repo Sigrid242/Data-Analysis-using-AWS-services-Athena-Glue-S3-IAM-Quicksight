@@ -88,8 +88,9 @@ Step 5- Now we can extract data from S3 using Quicksight to built report. But be
 
 
 
-5b- After the data is imported to spice, we create a report in Quicksight. Our interest was to identify top 5 popular data science salary in US based on job titlte.
-![salary dashboard](https://user-images.githubusercontent.com/59377247/192617094-a795ba79-ac8d-40be-bcb6-c2035492e35d.PNG)
+5b- After the data is imported to spice, we create a report in Quicksight. Our interest was to identify top 5 popular data science salary in US based on job titlte, experience level, employment type, and remote job ratio by job title.
+![quicksight__](https://user-images.githubusercontent.com/59377247/193369807-88956a60-0ff5-4ee8-ba1d-c2e1958b5a22.PNG)
+
 
 
 
