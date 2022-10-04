@@ -76,7 +76,7 @@ Step 4- Data query is performed in Athena, then results are loaded to data-scien
 
 
 
-Step 5- Now we can extract data from S3 using Quicksight to built report. But before quicksight can read the s3 bucket, we have to make sure it has permission to do so. We navigate the account section by clicking on top right > manage quicksight > security & permissions > manage > select s3 bucket.
+Step 5- Now quicksight needs to access S3 to build report. But before quicksight can read the s3 bucket, we have to make sure it has permission to do so. We navigate the account section by clicking on top right > manage quicksight > security & permissions > manage > select s3 bucket.
 
 ![quicksight_bucket_permission](https://user-images.githubusercontent.com/59377247/192400172-bfcaaf7f-d45e-4fd5-a3ab-363f903a745f.PNG)
 
