@@ -2,7 +2,11 @@
 
 This is an end-to-end simple data analytics solution using AWS services. From uploading the csv file to S3 bucket to visualizing results in Quicksight.The dataset used in this project is the data science job salaries from kaggle 'kaggle.com/datasets/ruchi798/data-science-job-salaries'. 
 
-Variables include work_year, experience_level, enployement_type, job_type, salary, salary_currency, salary_in_usd, employee_residence, remote_ratio, company_location, company_size.The data analytics process will be  done as follows:
+# Objective
+The main objective of this project is to identify the top 5 popular data science salary in US based on job titlte, experience level, employment type, and remote job ratio by job title.
+
+# Dataset
+The dataset contains variables which include work_year, experience_level, enployement_type, job_type, salary, salary_currency, salary_in_usd, employee_residence, remote_ratio, company_location, company_size.The data analysis process will be done as follows:
 
 Step 1- First, we create an IAM user to grant access permission to s3. In the search bar we type IAM > users > add users
 
@@ -92,6 +96,6 @@ Step 5- Now quicksight needs to access S3 to build report. But before quicksight
 ![quicksight__](https://user-images.githubusercontent.com/59377247/193369807-88956a60-0ff5-4ee8-ba1d-c2e1958b5a22.PNG)
 
 
-Conclusion:
-Aws provides a suite of powerful tools to analyze data effectively. By using Athena, Glue, Iam, and Quicksight, businesses can gained valuable insights into their data, make informed decisions and optimize processes.
+# Conclusion
+Aws provides a suite of powerful tools to analyze data effectively. By using Athena, Glue, IAM, and Quicksight, businesses can gained valuable insights into their data, make informed decisions and optimize processes.
 
