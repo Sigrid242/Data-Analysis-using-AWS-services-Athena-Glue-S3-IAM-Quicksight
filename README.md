@@ -93,6 +93,5 @@ Step 5- Now quicksight needs to access S3 to build report. But before quicksight
 
 
 Conclusion:
-
-Aws provides a suite of powerful tools to analyze data effectively. By using Athena, Glue, Iam, and Quicksiight, businesses can gained valuable insights into their data, make informed decisions and optimize processes.
+Aws provides a suite of powerful tools to analyze data effectively. By using Athena, Glue, Iam, and Quicksight, businesses can gained valuable insights into their data, make informed decisions and optimize processes.
 
